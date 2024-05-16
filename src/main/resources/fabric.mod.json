@@ -10,14 +10,16 @@
   "icon": "assets/noblockbreakingcooldown/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": ["com.github.neapovil.noblockbreakingcooldown.NoBlockBreakingCooldown"]
+    "client": ["com.github.neapovil.noblockbreakingcooldown.NoBlockBreakingCooldown"],
+    "modmenu": ["com.github.neapovil.noblockbreakingcooldown.ModMenuIntegration"]
   },
   "mixins": ["noblockbreakingcooldown.mixins.json"],
   "depends": {
     "fabricloader": "*",
     "fabric-api": "*",
     "minecraft": "~1.20",
-    "java": ">=17"
+    "java": ">=17",
+    "cloth-config": "*"
   },
   "suggests": {}
 }
