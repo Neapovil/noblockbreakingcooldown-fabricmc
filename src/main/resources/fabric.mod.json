@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "change",
+  "id": "noblockbreakingcooldown",
   "version": "${version}",
-  "name": "CHANGE",
+  "name": "NoBlockBreakingCooldown",
   "description": "",
   "authors": [],
   "contact": {},
   "license": "Unlicense",
-  "icon": "assets/change/icon.png",
+  "icon": "assets/noblockbreakingcooldown/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": ["com.github.neapovil.change.Change"]
+    "client": ["com.github.neapovil.noblockbreakingcooldown.NoBlockBreakingCooldown"]
   },
-  "mixins": ["CHANGE.mixins.json"],
+  "mixins": ["noblockbreakingcooldown.mixins.json"],
   "depends": {
     "fabricloader": "*",
     "fabric-api": "*",
