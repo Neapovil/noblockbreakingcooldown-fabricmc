@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "change",
+  "version": "${version}",
+  "name": "CHANGE",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "Unlicense",
+  "icon": "assets/change/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.github.neapovil.change.Change"]
+  },
+  "mixins": [
+    "CHANGE.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {}
+}
